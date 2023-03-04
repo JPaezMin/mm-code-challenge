@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, computed } from "vue";
-import ModelsService from "@/Services/ModelsService.js";
+import ModelsService from "@/services/ModelsService.js";
 import BaseModelCard from "@/components/BaseModelCard.vue";
 import ThePagination from "@/components/ThePagination.vue";
 import BaseModelSort from "@/components/BaseModelSort.vue";
