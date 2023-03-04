@@ -42,7 +42,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import ModelsService from "@/Services/ModelsService.js";
+import ModelsService from "@/services/ModelsService.js";
 const model = ref(null);
 const props = defineProps({
   id: {
